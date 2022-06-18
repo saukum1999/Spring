@@ -44,7 +44,7 @@ public class FetchJoinDemo {
 			System.out.println("SauKum : Done!");
 			
 			session.close();
-			
+//			testing new auther
 			System.out.println("SauKum : Courses : " + tempInstructor.getCourses());
 		}
 		
