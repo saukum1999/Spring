@@ -6,6 +6,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 import com.luv2com.aopdemo.dao.AccountDAO;
+import com.luv2com.aopdemo.dao.MembershipDAO;
 
 @Configuration
 @EnableAspectJAutoProxy
@@ -15,5 +16,10 @@ public class DemoConfig {
 	@Bean
 	public AccountDAO accountDAO() {
 		return new AccountDAO();
+	}
+	
+	@Bean
+	public MembershipDAO membershipDAO() {
+		return new MembershipDAO();
 	}
 }
