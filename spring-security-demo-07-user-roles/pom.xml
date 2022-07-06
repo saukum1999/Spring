@@ -25,6 +25,13 @@
 			<version>${springframework.version}</version>
 		</dependency>
 
+		<!-- Spring Security tags support -->
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-taglibs</artifactId>
+			<version>${springsecurity.version}</version>
+		</dependency>
+
 		<!-- Spring Security support -->
 		<dependency>
 			<groupId>org.springframework.security</groupId>
